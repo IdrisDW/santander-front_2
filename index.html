@@ -2,89 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/matcha/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
-    <header class="header">
-    
-        <a href="/" class="logo">
-            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo">
-        </a>
+  <header class="header">
+    <!-- Logo con link a la página principal -->
+    <a href="/" class="logo">
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha"/>
+    </a>
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+      <ul>
+        <li class="menu-item">Platform</li>
+        <li class="menu-item">Pricing</li>
+        <li class="menu-item">Customers</li>
+        <li class="menu-item">Resources</li>
+        <li class="menu-item">About</li>
+      </ul>
+    </nav>
+    <!-- Contenedor de acciones de usuario -->
+    <div class="actions">
+      <a>Sign In</a>
+      <button>Start free trial</button>
+    </div>
+  </header>
+  
+  <h1> Mi primer etiqueta </h1>
+  <h2> Mi segunda etiqueta </h1>
+      <h3> Mi tercer etiqueta </h1>
+          <h4> Mi <b>cuarta</b> etiqueta </h1>
+              <h5> Mi quinta etiqueta </h1>
+                  <h6> Mi sexta etiqueta </h1>
 
-        <nav class="navbar">   
-
-            <ul>
-                <li class="menu-item">Products</li>
-                <li class="menu-item">Templates</li>
-                <li class="menu-item">Pricing</li>
-                <li class="menu-item">Customers</li>
-                <li class="menu-item">Blog</li>
-                <li class="menu-item">Resources</li>
-               </ul>  
-        </nav>
-
-        
-        <div class= "actions">
-            <!-- <a href="/login.html"> -->
-                <a >Sign in</a>
-                <button>Start free trial</button>
-
-        </div>
-
-       
-
-    </header>
+                      <p>Bacon ipsum dolor <b>amet</b> amet t-bone shankle burgdoggen kevin meatloaf ground round
+                          chicken leberkas. Meatball landjaeger short ribs t-bone hamburger short loin ribeye boudin
+                          shankle.
+                          Pancetta meatball drumstick frankfurter t-bone short ribs kevin. Pig pork loin turkey filet
+                          mignon hamburger pork belly drumstick spare ribs pancetta doner.</p>
 
 
+  <!-- <input type="text"><br> -->
+  <form>
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="fname" required><br><br>
+    <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
+    <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
+    <input type="email" id="email" name="email" placeholder="Correo"><br><br>
+    <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
+    <button type="submit">Enviar</button>
+</form>
 
-    <h1> Mi primer etiqueta </h1>
-    <h2> Mi segunda etiqueta </h1>
-        <h3> Mi tercer etiqueta </h1>
-            <h4> Mi <b>cuarta</b> etiqueta </h1>
-                <h5> Mi quinta etiqueta </h1>
-                    <h6> Mi sexta etiqueta </h1>
-
-                        <p>Bacon ipsum dolor <b>amet</b> amet t-bone shankle burgdoggen kevin meatloaf ground round
-                            chicken leberkas. Meatball landjaeger short ribs t-bone hamburger short loin ribeye boudin
-                            shankle.
-                            Pancetta meatball drumstick frankfurter t-bone short ribs kevin. Pig pork loin turkey filet
-                            mignon hamburger pork belly drumstick spare ribs pancetta doner.</p>
-
-                        <!-- <input type="text"> <br> -->
-                        <form action="">
-                            <label for="fname">Nombre:</label><br>
-                            <input type="text" id="fname" name="fname"><br>
-                            <label for="lname">Apellido:</label><br>
-                            <input type="text" id="lname" name="lname"><br>
-
-                            <label for="age">Edad:</label><br>
-                            <input type="number" name="" id=""><br>
-                            <label for="email">Email:</label><br>
-                            <input type="email" id="email" name="email"><br>
-                            <label for="pss">Password:</label><br>
-                            <input type="password" name="" id=""><br>
-
-                            <img alt="Logo de matcha"
-                                src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="">
-
-                            <!-- <form>
-                                <label for="name">Nombre</label>
-                                <input type="text" required id="name" name="fname"><br><br>
-                                <input type="text" id="lastname" name="lastname" placeholder="Apellido"><br><br>
-                                <input type="number" id="age" name="age" placeholder="Edad" min="18" max="35"><br><br>
-                                <input type="email" id="email" name="email" placeholder="Correo"><br><br>
-                                <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
-                                <button type="submit">Enviar</button>
-                            </form> -->
-
-                            <button type="submit">Enviar &rarr; </button>
-                        </form>
+<img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
 
 
 </body>
