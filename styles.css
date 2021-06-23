@@ -150,3 +150,101 @@ top:0;
 left:0;
 right:0;
 }
+
+ 
+
+.ads {
+  background-color: #a1d683;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ads .subject h2 {
+  font-family: "Alegreya", serif;
+  font-size: 50px;
+  line-height: 48px;
+  color: #025157;
+  margin-left: 100px;
+}
+
+.ads .subject  p {
+  font-size: 20px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.ads .subject  button {
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight:150;
+  margin-left: 100px;
+}
+ 
+.ads .subject  img {
+  width: 350px;
+  margin-left: 100px;
+}
+
+.case-title img{
+  width: 250px;
+  display: flex;
+}
+
+.case {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+.case-content  {
+  margin-left: 20px;
+}
+
+.case-content h4{
+  font-family: "Alegreya", serif;
+  font-size: 20px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.case-content p h3{
+  font-family: "Alegreya", serif;
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.case-footer button{
+ margin-left: 120px ;
+}
+
+.case-gains img {
+  width: 30px;
+  float: left;
+  display: inline-block;
+}
+
+.case-title{
+  position: relative;
+}
+
+.case-company  {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.case-company img{
+ width: 70%;
+}
