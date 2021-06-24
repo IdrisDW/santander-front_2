@@ -248,3 +248,35 @@ right:0;
 .case-company img{
  width: 70%;
 }
+
+
+main{
+margin-top: 285px;
+text-align: center;
+}
+
+
+
+
+.features {
+  display: grid;
+  /* grid-template-columns: 300px 300px; */
+  /* grid-template-columns: repeat(2,300px); */
+    /* grid-template-columns: 500px 1fr; */
+    /* grid-template-columns: 1fr 1fr; */
+
+
+   /* grid-template-columns: repeat(2, 1fr);*/
+                     /* grid-template-rows: repeat(2, 330px); */
+   /* height: 500px; */
+    grid-template : repeat(2, 330px) / repeat(2,1fr);  
+}
+
+.feature-art{
+background-color: lightcyan;
+margin: 10px;
+width: 40%;
+height: 50px;
+
+}
+
