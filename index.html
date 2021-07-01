@@ -6,17 +6,69 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./styles.css">
+
+  <link rel="stylesheet" 
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <section class="fixed-header">
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+      <img
+        src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
+        alt="Matcha"
+      />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Platform</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="pricing.html">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Customers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a>Sign In</a>
+        <button>Start free trial</button>
+      </form>
+    </div>
+  </nav>
+  
+
+  
+  <!-- <section class="fixed-header">
     <header class="header">
-      <!-- Logo con link a la página principal -->
+    
       <a href="/" class="logo">
         <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
       </a>
-      <!-- Menú de navegación -->
+     
       <nav class="navbar">
         <ul>
           <li class="menu-item">Platform</li>
@@ -26,14 +78,111 @@
           <li class="menu-item">About</li>
         </ul>
       </nav>
-      <!-- Contenedor de acciones de usuario -->
+   
       <div class="actions">
         <a>Sign In</a>
         <button>Start free trial</button>
       </div>
     </header>
-  </section>
+  </section> -->
   <main>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="http://c.files.bbci.co.uk/48DD/production/_107435681_perro1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.ecestaticos.com/image/clipping/79776773aab795837282c7d4947abaf7/por-que-nos-parece-que-los-perros-sonrien-una-historia-de-30-000-anos.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59bbb29c5bafe878503c9872/husky-siberiano-bosque.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+    <div class="card-group">
+      <div class="card">
+        <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5b7e9c0d5cafe8e326d4f36d/parrafo-cachorro-de-bull-terrier-curioseando-en-jardin-con-cesped.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://i.ytimg.com/vi/uHG7yNf-4k4/maxresdefault.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+
+
+    <ul class="list-group">
+      <li class="list-group-item active">Cras justo odio</li>
+      <li class="list-group-item">Dapibus ac facilisis in</li>
+      <li class="list-group-item">Morbi leo risus</li>
+      <li class="list-group-item">Porta ac consectetur ac</li>
+      <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+
+
+    <div class="alert alert-primary" role="alert">
+      A simple primary alert—check it out!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      A simple secondary alert—check it out!
+    </div>
+    <div class="alert alert-success" role="alert">
+      A simple success alert—check it out!
+    </div>
+    <div class="alert alert-danger" role="alert">
+      A simple danger alert—check it out!
+    </div>
+    <div class="alert alert-warning" role="alert">
+      A simple warning alert—check it out!
+    </div>
+    <div class="alert alert-info" role="alert">
+      A simple info alert—check it out!
+    </div>
+    <div class="alert alert-light" role="alert">
+      A simple light alert—check it out!
+    </div>
+    <div class="alert alert-dark" role="alert">
+      A simple dark alert—check it out!
+    </div>
+
+
     <h1> Mi primer etiqueta </h1>
     <h2> Mi segunda etiqueta </h1>
       <h3> Mi tercer etiqueta </h1>
@@ -355,6 +504,22 @@
       </div>
     </article>
   </section>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"
+></script>
+
 
 </body>
 
