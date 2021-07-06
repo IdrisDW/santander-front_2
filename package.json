@@ -1,0 +1,22 @@
+{
+  "name": "matcha",
+  "version": "1.0.0",
+  "description": "Iniciar proyecto de git\r git init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdrisDW/santander-front_2.git"
+  },
+  "author": "juliet qr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IdrisDW/santander-front_2/issues"
+  },
+  "homepage": "https://github.com/IdrisDW/santander-front_2#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}

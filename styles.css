@@ -472,6 +472,33 @@ max-width: 90%;
  
 }
 
+.blog .card-title {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+
+.blog .metadata {
+  font-weight: 500;
+  font-size: 14px;
+  color: #979797;
+}
+
+.blog .metadata .category {
+  color: #67b54b;
+}
+
+.blog .card-text {
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 1.5em;
+  min-height: 6em;
+}
+.blog .author p {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4a4a4a;
+}
 /** dispositivos pequeños en vista landscape (horizontal) */
 @media (min-width: 576px) and (max-width: 767px) {
   
@@ -491,3 +518,4 @@ max-width: 90%;
 @media (min-width: 1200px) {
   
 }
+
